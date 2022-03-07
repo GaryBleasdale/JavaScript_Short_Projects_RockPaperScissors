@@ -1,0 +1,114 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: beige;
+}
+
+h1{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.mega-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh
+}
+
+.choose>h3{
+  text-align: center;
+  margin-bottom:25px;
+}
+
+.running-score>h3{
+  text-align: center;
+  margin-bottom: 20px;;
+}
+
+.btns{
+  display:flex;
+  justify-content: space-around;
+}
+
+.scoreboard{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.scoreboard1{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding:10px 20px;
+  border-radius: 10px;
+}
+
+.scoreboard1>h4{
+  text-align:center;
+  font-weight: bold;
+}
+
+.score{
+  font-size: 20px;
+  font-weight: bold;
+  width:30px;
+  height:30px;
+  padding-top:5px;
+  text-align: center;
+  color:green
+}
+
+
+.narration{
+  height:80px;
+  width:300px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 30px;
+  padding-left:40px;
+}
+
+
+
+button{
+  padding: 5px 10px;
+  margin:0px 10px;
+  transition: 300ms all ease;
+  border:none;
+  border-radius: 10px;
+  background-color: aquamarine;
+  font-size: 20px;
+  width:100px;
+}
+
+button:hover{
+  background-color: aqua;
+  transition: 300ms all ease;
+  box-shadow: 5px 6px 18px -1px rgba(0,0,0,0.66)
+
+}
+
+.final-result{
+  font-size: 24px;
+}
+
+.restart{
+  display:none;
+  margin-top:40px;
+}
+
+.restart>button{
+  font-size: 28px;
+  background-color: cornflowerblue;
+  padding: 15px 20px;
+  width:240px;
+}
